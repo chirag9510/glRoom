@@ -12,7 +12,7 @@ https://github.com/chirag9510/glRoom/assets/78268919/1c4a2b57-2763-4f4e-87c1-a07
 # Functionality
 ## Engine
 Physics functionality with [Bullet physics](https://github.com/bulletphysics/bullet3)\
-Indirect Draw Buffer (GL_DRAW_INDIRECT_BUFFER) with Direct State Access (DSA) and Shader storage buffers\
+Indirect Draw (GL_DRAW_INDIRECT_BUFFER) with Direct State Access (DSA) and Shader storage buffers\
 Bindless textures\
 Stencil culling\
 Post Processing\
