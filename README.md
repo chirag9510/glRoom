@@ -2,7 +2,7 @@
 
 A small engine with physics functionality that combines modern OpenGL 4.6 rendering techniques with other application libraries.
 
-**Controls**: Left Click to pick and move objects, Right Click and Wheel to move the camera.\ 
+**Controls**: Left Click to pick and move objects, Right Click and Wheel to move the camera.\
 Press 2 or 3 to enable / Press 1 to disable : Debug mode regarding bullet physics.
 
 https://github.com/chirag9510/glRoom/assets/78268919/1c4a2b57-2763-4f4e-87c1-a07f58e2efcf
