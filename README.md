@@ -32,7 +32,7 @@ Bloom with multiple framebuffers and subroutines
 [spdlog](https://github.com/gabime/spdlog)\
 Blender for level design and scripting
 
-After compiling the application, copy the contents of the **bin_cpy** folder into the **assets** folder after creating it inside the **executable folder (./assets/)**. The assets folder path can also be changed in the **set.ini** file which resides with the executable. \
+After compiling the application under the **x64 Release**, copy the contents of the **bin_cpy** folder into the **assets** folder after creating it inside the **executable folder (./assets/)**. The assets folder path can also be changed in the **set.ini** file which resides with the executable. \
 Or download the released **glRoom.zip** and run the application right away.
 
 # Blender scripting:- 
