@@ -148,9 +148,6 @@ void RenderingSys::initFBOs()
 	GLenum result = glCheckFramebufferStatus(GL_FRAMEBUFFER);
 	if (result != GL_FRAMEBUFFER_COMPLETE) 
 		spdlog::error("HDR fbo is incomplete : " + std::to_string(result));
-	else 
-		spdlog::info("HDR fbo complete");
-	
 
 	//blur pass FBO
 	fBlurBufWidth = appSettings->mWidth / 4.f;
@@ -170,8 +167,7 @@ void RenderingSys::initFBOs()
 	result = glCheckFramebufferStatus(GL_FRAMEBUFFER);
 	if (result != GL_FRAMEBUFFER_COMPLETE)
 		spdlog::error("Blur fbo is incomplete : " + std::to_string(result));
-	else
-		spdlog::info("Blur fbo complete");
+
 
 	//default
 	glBindBuffer(GL_FRAMEBUFFER, 0);

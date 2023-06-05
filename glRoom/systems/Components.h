@@ -13,8 +13,7 @@ struct CGeometryInstance
 {
 	GLuint baseInstance;
 	GLuint instanceID;
-	CGeometryInstance(GLuint iBaseInstance = 0, GLuint iInstanceID = 0) :
-		baseInstance(baseInstance), instanceID(instanceID) {}
+	CGeometryInstance() : baseInstance(0), instanceID(0) {}
 };
 
 //distinguish entities by str names. makes easier to load data in buffers by identifying num instances
