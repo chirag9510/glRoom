@@ -36,7 +36,7 @@ After compiling the application under the **x64 Release**, copy the contents of 
 Or download the released **glRoom.zip** and run the application right away.
 
 # Blender scripting
-Open the level.blend file in bin_cpy folder and run the python script through the Blender application. This exports the level.txt file with all the assets adjusted for bullet physics parsed automatically by the application when placed in **assets** folder.
+Open the **level.blend file in bin_cpy folder** and run the python script through the Blender application. This exports the level.txt file with all the entities and assets adjusted for bullet physics parsed automatically by the application when placed in **assets** folder.
 
 ![blender](https://github.com/chirag9510/glRoom/assets/78268919/948a0575-aecb-443a-845c-828cee67ba58)
 
