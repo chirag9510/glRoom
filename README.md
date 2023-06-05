@@ -29,7 +29,7 @@ Bloom with multiple framebuffer objects and subroutines
 ## Also includes
 [nuklear gui](https://github.com/Immediate-Mode-UI/Nuklear)\
 [tinyobjloader](https://github.com/tinyobjloader/tinyobjloader)\
-[spdlog](https://github.com/gabime/spdlog)
+[spdlog](https://github.com/gabime/spdlog)\
 Blender for level design and scripting
 
 After compiling the application, copy the contents of the **bin_cpy** folderinto the **assets** folder after creating it inside the **executable folder (./assets/)**. The assets folder path can also be changed in the **set.ini** file which resides with the executable. \
