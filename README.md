@@ -24,7 +24,7 @@ Only 3 Draw calls are made with glMultiDrawElementsIndirect() regarding renderin
 ## Post processing  
 Extended Reinhard tonemapping\
 Gamma correction\
-Bloom with multiple framebuffer objects and subroutines
+Bloom with multiple framebuffers and subroutines
 
 ## Also includes
 [nuklear gui](https://github.com/Immediate-Mode-UI/Nuklear)\
