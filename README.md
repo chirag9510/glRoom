@@ -1,11 +1,11 @@
 # glRoom
 
-A small engine with modern OpenGL 4.6 rendering techniques alongwith ECS and physics functionality.
+A small application implementing modern OpenGL 4.6 rendering techniques alongwith ECS and physics functionality.
 
 **Controls**: Left Click to pick and move objects, Right Click and Wheel to move the camera.\
 Press 2 or 3 to enable / Press 1 to disable : Debug mode regarding bullet physics.
 
-https://github.com/chirag9510/glRoom/assets/78268919/1c4a2b57-2763-4f4e-87c1-a07f58e2efcf
+https://github.com/chirag9510/glRoom/assets/78268919/8ebb3d7d-bc32-4986-92d0-fbbf1b3d5ec5
 
 **Please note about Bindless Textures**: If you don't have a dedicated NVidia or AMD graphics card with support for bindless textures, the application will appear as blank because of all the missing textures. Very few intel integrated graphics support bindless textures.
 
