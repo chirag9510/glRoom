@@ -2,8 +2,8 @@
 
 A small engine with physics functionality that combines modern OpenGL 4.6 rendering techniques with other application libraries.
 
-**Controls**: Left Click to pick and move objects, Right Click and Wheel to move the camera. \ 
-Press 2 or 3 to enable / Press 1 to disable : Debug mode regarding bullet physics. \
+**Controls**: Left Click to pick and move objects, Right Click and Wheel to move the camera.\ 
+Press 2 or 3 to enable / Press 1 to disable : Debug mode regarding bullet physics.
 
 https://github.com/chirag9510/glRoom/assets/78268919/1c4a2b57-2763-4f4e-87c1-a07f58e2efcf
 
@@ -11,12 +11,12 @@ https://github.com/chirag9510/glRoom/assets/78268919/1c4a2b57-2763-4f4e-87c1-a07
 
 # Functionality
 ## Engine
-Physics functionality with ![Bullet physics](https://github.com/bulletphysics/bullet3)\
+Physics functionality with [Bullet physics](https://github.com/bulletphysics/bullet3)\
 Indirect Draw Buffer (GL_DRAW_INDIRECT_BUFFER) with Direct State Access (DSA) and Shader storage buffers\
 Bindless textures\
 Stencil culling\
 Post Processing\
-ECS with ![entt](https://github.com/skypjack/entt)\
+ECS with [entt](https://github.com/skypjack/entt)\
 Observer pattern among systems\
 \
 Only 3 Draw calls are made with glMultiDrawElementsIndirect() regarding rendering of meshes since each mesh and its submesh is assigned a Vertex Array Object based on its material. Only a single indirect draw buffer is used where VAOs access their respective rendering data from the DrawElementsIndirectCommand data structure via an offset in memory. 
@@ -27,9 +27,9 @@ Gamma correction\
 Bloom with multiple framebuffer objects and subroutines
 
 ## Also includes
-![nuklear gui](https://github.com/Immediate-Mode-UI/Nuklear)\
-![tinyobjloader](https://github.com/tinyobjloader/tinyobjloader)\
-![spdlog](https://github.com/gabime/spdlog)
+[nuklear gui](https://github.com/Immediate-Mode-UI/Nuklear)\
+[tinyobjloader](https://github.com/tinyobjloader/tinyobjloader)\
+[spdlog](https://github.com/gabime/spdlog)
 Blender for level design and scripting
 
 After compiling the application, copy the contents of the **bin_cpy** folderinto the **assets** folder after creating it inside the **executable folder (./assets/)**. The assets folder path can also be changed in the **set.ini** file which resides with the executable. \
