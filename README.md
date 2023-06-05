@@ -1,6 +1,6 @@
 # glRoom
 
-A small engine with physics functionality that combines modern OpenGL 4.6 rendering techniques with other application libraries.
+A small engine with modern OpenGL 4.6 rendering techniques alongwith physics functionality.
 
 **Controls**: Left Click to pick and move objects, Right Click and Wheel to move the camera.\
 Press 2 or 3 to enable / Press 1 to disable : Debug mode regarding bullet physics.
