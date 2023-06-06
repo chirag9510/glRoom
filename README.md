@@ -1,6 +1,6 @@
 # glRoom
 
-A small application implementing modern OpenGL 4.6 rendering techniques alongwith ECS and physics functionality.
+A small application implementing modern OpenGL 4.6 rendering techniques alongwith ECS and physics functionalities.
 
 **Controls**: Left Click to pick and move objects, Right Click and Wheel to move the camera.\
 Press 2 or 3 to enable / Press 1 to disable : Debug mode regarding bullet physics.
