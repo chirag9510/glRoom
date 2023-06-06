@@ -7,15 +7,15 @@ Press 2 or 3 to enable / Press 1 to disable : Debug mode regarding bullet physic
 
 https://github.com/chirag9510/glRoom/assets/78268919/8ebb3d7d-bc32-4986-92d0-fbbf1b3d5ec5
 
-**Please note about Bindless Textures**: If you don't have a dedicated NVidia or AMD graphics card with support for bindless textures, the application will appear as blank because of all the missing textures. Very few intel integrated graphics support bindless textures.
+**Please note about Bindless Textures**: If you don't have a dedicated NVidia or AMD graphics card with support for bindless textures, the application will appear as blank because of all the textures will be missing. Very few intel integrated graphics support bindless textures.
 
 # Functionality
 ## Engine
 Physics functionality with [Bullet physics](https://github.com/bulletphysics/bullet3)\
-Indirect Draw (GL_DRAW_INDIRECT_BUFFER) with Direct State Access (DSA) and Shader storage buffers\
+Instanced Indirect Draw (GL_DRAW_INDIRECT_BUFFER) rendering with Direct State Access (DSA)\
+Post Processing\
 Bindless textures\
 Stencil culling\
-Post Processing\
 ECS with [entt](https://github.com/skypjack/entt)\
 Observer pattern among systems\
 \
