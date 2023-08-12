@@ -2,6 +2,8 @@
 
 A small application implementing modern OpenGL 4.6 rendering techniques alongwith ECS and physics functionalities.
 
+Also includes the blend file with the python script used to design the level. 
+
 **Controls**: Left Click to pick and move objects, Right Click and Wheel to move the camera.\
 Press 2 or 3 to enable / Press 1 to disable : Debug mode regarding bullet physics.
 
@@ -12,9 +14,9 @@ https://github.com/chirag9510/glRoom/assets/78268919/8ebb3d7d-bc32-4986-92d0-fbb
 # Functionality
 ## Engine
 Physics functionality with [Bullet physics](https://github.com/bulletphysics/bullet3)\
-Instanced Indirect Draw (GL_DRAW_INDIRECT_BUFFER) rendering with Direct State Access (DSA)\
-Post Processing\
+Instanced Indirect Draw (GL_DRAW_INDIRECT_BUFFER) rendering with Direct State Access\
 Bindless textures\
+Post Processing\
 Stencil culling\
 ECS with [entt](https://github.com/skypjack/entt)\
 Observer pattern among systems\
@@ -23,10 +25,10 @@ Only 3 Draw calls are made with glMultiDrawElementsIndirect() regarding renderin
 
 ## Post processing  
 Extended Reinhard tonemapping\
+Bloom with multiple framebuffers and subroutines\
 Gamma correction\
-Bloom with multiple framebuffers and subroutines
 
-## Also includes
+## Also uses
 [nuklear gui](https://github.com/Immediate-Mode-UI/Nuklear)\
 [tinyobjloader](https://github.com/tinyobjloader/tinyobjloader)\
 [spdlog](https://github.com/gabime/spdlog)\
@@ -40,3 +42,4 @@ Open the **level.blend file in bin_cpy folder** and run the python script throug
 
 ![blender](https://github.com/chirag9510/glRoom/assets/78268919/948a0575-aecb-443a-845c-828cee67ba58)
 
+![gkr1](https://github.com/chirag9510/glRoom/assets/78268919/acb82994-5f47-4b03-9e04-2d39d64f0bad)
