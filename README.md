@@ -7,7 +7,7 @@ Also includes the blend file with the python script used to design the level.
 **Controls**: Left Click to pick and move objects, Right Click and Wheel to move the camera.\
 Press 2 or 3 to enable / Press 1 to disable : Debug mode regarding bullet physics.
 
-https://github.com/chirag9510/glRoom/assets/78268919/8ebb3d7d-bc32-4986-92d0-fbbf1b3d5ec5
+https://github.com/chirag9510/glRoom/assets/78268919/6568e1fd-47fd-4f05-8ec7-11395424b999
 
 **Please note about Bindless Textures**: If you don't have a dedicated NVidia or AMD graphics card with support for bindless textures, the application will appear as blank because of all the textures will be missing. Very few intel integrated graphics support bindless textures.
 
@@ -40,6 +40,6 @@ Or download the released **glRoom.zip** and run the application right away.
 # Blender scripting
 Open the **level.blend file in bin_cpy folder** and run the python script through the Blender application. This exports the level.txt file with all the entities and assets adjusted for bullet physics parsed automatically by the application when placed in **assets** folder.
 
-![blender](https://github.com/chirag9510/glRoom/assets/78268919/948a0575-aecb-443a-845c-828cee67ba58)
+![blender](https://github.com/chirag9510/glRoom/assets/78268919/7501c39d-393b-4b05-89ae-97e6425700da)
+![gkr1](https://github.com/chirag9510/glRoom/assets/78268919/2cfa9b8f-f360-4a03-bcd2-8780cf5b8069)
 
-![gkr1](https://github.com/chirag9510/glRoom/assets/78268919/acb82994-5f47-4b03-9e04-2d39d64f0bad)
